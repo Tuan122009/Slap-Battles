@@ -1,0 +1,10 @@
+for k,v in ipairs(workspace.Collectable:GetDescendants()) do
+
+if v:IsA("TouchTransmitter")  then
+
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Parent.CFrame
+
+end
+
+end
